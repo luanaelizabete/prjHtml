@@ -1,0 +1,46 @@
+body{
+background-color:rgb(99, 18, 192)
+}
+
+p
+{
+text-align: center;
+color: rgb(108, 22, 206);
+}
+
+table {
+   
+    text-align: center;
+    border: 1px solid black; 
+    background: #ffc3f2; 
+    border-radius: 10px;
+ }
+
+ th, td{
+    text-align: center;
+    border: 1px solid blueviolet;
+ }
+
+ h1{
+     text-align: center;
+     color:#ffc3f2;
+ }
+
+ 
+a {
+    align-content: center;
+    background-color: #030303; 
+    border: 2px solid #141414;
+    color: white;
+    padding: 14px 28px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+    border-radius: 6px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  a:hover {
+    background-color: #005684; 
+  }
