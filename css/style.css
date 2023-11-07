@@ -1,5 +1,20 @@
 body{
-background-color:rgb(99, 18, 192)
+background-color: rgb(0, 0, 0);
+box-sizing: border-box;
+width: 80%;
+margin: auto;
+}
+
+nav{
+  border: 3px solid rgb(99, 18, 192);
+  background-color:rgb(92, 37, 155);
+  padding-top: 10px;
+  padding-right: 15px;
+  
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding: 10px;
+  margin: 15px;
 }
 
 p
@@ -12,18 +27,20 @@ table {
    
     text-align: center;
     border: 1px solid black; 
-    background: #ffc3f2; 
+    background: #000000; 
     border-radius: 10px;
  }
 
  th, td{
     text-align: center;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(47, 2, 88);
  }
 
  h1{
      text-align: center;
-     color:#ffc3f2;
+     color:#f1f1f1;
+     font-family: "Trirong", serif;
+     font-size: 40px;
  }
 
  
@@ -48,7 +65,7 @@ a {
 .all-browsers {
   margin: 0;
   padding: 5px;
-  background-color: lightgray;
+  background-color:rgb(92, 37, 155);
 }
 
 .all-browsers > h1, .browser {
@@ -57,7 +74,7 @@ a {
 }
 
 .browser {
-  background: white;
+  background: rgb(253, 250, 255);
 }
 
 .browser > h2, p {
@@ -68,6 +85,12 @@ a {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: rgb(24, 23, 23);
   color: white;
+}
+
+img{
+  padding: 60px;
+  margin: 30px;
+  display:block;
 }
