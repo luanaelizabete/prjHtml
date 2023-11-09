@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/reset.css">
+    <link re="stylesheet" href="./../css/reset.css">
     <link rel="stylesheet" href="./../css/style2.css">
-    
+
+
     <title>Formulário</title>
 </head>
 
 <body>
-    <div>
     <h1>Formulário de Torcedor</h1>
-    </div>
     <form action="" method="GET">
+
+
         <fieldset>
-            <legend> Dados do Torcedor </legend>
+            <legend>Dados do Torcedor</legend>
             <div class="componente-form">
                 <label for="nome-front">Nome:</label>
-                <input type="text" name="nome" id="nome-front" placeholder="Digite aqui seu nome..." Required>
+                <input type="text" name="nome" id="nome-front" placeholder="Digite aqui seu nome..." required>
             </div>
 
             <div class="componente-form">
@@ -76,31 +77,26 @@
             </div>
 
             <div class="componente-form">
-                <label for="satisfacao-front"> Nível de satisfação com seu time: </label>
+                <label for="satisfacao-front">Nível de satisfação com seu time:</label>
                 <br>
                 <input type="range" name="satisfacao" id="satisfacao-front" min="1" max="10" value="5">
             </div>
 
-
-
             <div class="componente-form">
-                <label for="sugestoes-front"> Deixe aqui suas sugestões: </label>
+                <label for="sugestoes-front">Deixe aqui suas sugestões:</label>
                 <br>
                 <textarea name="sugestoes" id="sugestoes-front" cols="30" rows="10" placeholder="Sugestões"></textarea>
             </div>
 
             <fieldset>
-                <legend> Dados do seu prêmio </legend>
+                <legend>Dados do seu prêmio</legend>
             </fieldset>
 
             <div class="componente-form">
                 <input type="reset" value="Limpar Formulário">
                 <input type="submit" value="Enviar">
             </div>
-
-
-
-
+        </fieldset>
     </form>
 </body>
 
